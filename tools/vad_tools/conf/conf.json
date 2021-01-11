@@ -1,0 +1,9 @@
+{
+    "vad_mode" : 3,
+    "sample_rate" : 8000,
+    "frame_ms": 5,
+    "active_queue_size" : 50,
+    "active_threshold" : 0.8,
+    "inactive_queue_size" : 50,
+    "inactive_threshold" : 0.3
+}

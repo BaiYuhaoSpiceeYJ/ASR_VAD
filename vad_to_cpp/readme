@@ -1,0 +1,11 @@
+做pytorch c++ 预测分两步
+1.保存将模型预测逻辑保存为torch.jit模型格式
+    example1:   segan/save_model_jit.py
+    example2:   save_resnet18.py
+2.c++载入torch.jit模型格式，做预测
+    example1:   test_segan.cpp
+    example2:   test_resnet18.cpp
+
+3.编译
+    example:  CMakeLists.txt
+    编译执行：cd build && make clean && cmake .. && make
